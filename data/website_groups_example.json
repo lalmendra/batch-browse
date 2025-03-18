@@ -1,0 +1,59 @@
+{
+    "courses": [
+        "https://www.coursera.org",
+        "https://www.udemy.com",
+        "https://id.cisco.com/",
+        "https://trilha.info/",
+        "https://www.kaggle.com/competitions",
+        "https://graduacao.cederj.edu.br/login/index.php",
+        "https://leetcode.com/problemset/all/",
+        "https://digital.aprendamodal.com.br/",
+        "https://moodle.ifrs.edu.br/login/index.php"
+    ],
+    "jobs": [
+        "https://www.indeed.com",
+        "https://www.linkedin.com",
+        "https://www.glassdoor.com",
+        "https://www.simplyhired.com"
+    ],
+    "jobs_priority": [
+        "https://www.linkedin.com",
+        "https://www.simplyhired.com"
+    ],    
+    "internships": [
+        "https://aiesec.org/",
+        "https://buildyourfuture.withgoogle.com/internships"
+    ],
+    "freelance": [
+        "https://www.upwork.com",
+        "https://www.workana.com",
+        "https://www.toptal.com",
+        "https://www.guru.com"
+    ],
+    "newspapers": [
+        "https://www.nytimes.com",
+        "https://www.bbc.com"
+    ],
+    "to_do": [
+        "https://react.dev/learn/render-and-commit",
+        "https://react.dev/reference/react/useState",
+        "https://nextjs.org/docs",
+        "https://nextjs.org/docs/app/api-reference"
+    ],
+    "social_networks": [
+        "https://web.whatsapp.com",
+        "https://web.telegram.org",
+        "https://www.instagram.com",
+        "https://www.facebook.com",
+        "https://discord.com",
+        "https://mastodon.social"
+    ],
+    "routine": [
+        "https://mail.google.com",
+        "https://drive.google.com",
+        "https://meet.google.com",
+        "https://calendar.google.com",
+        "https://web.whatsapp.com",
+        "https://web.telegram.org"
+    ]        
+}

@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a small app to open multiple websites at once, each in a different tab.
 
-## Getting Started
+The user defines groups of websites, according to a desired criteria. Then, each url is stored within its group.
 
-First, run the development server:
+For instance, the user can create one group for 'social networks', another group called 'job search' and a third group for 'courses'.
+
+Then, when the user needs to access all websites from a group, instead of typing each website, the user clicks one button and all websites are opened in different tabs.
+
+The websites are stored in the 'data/website_groups.json' file, where each key is a website group, and the value associated to that key is an array containing the websites you want to open.
+
+After adding or removing groups, you need to make changes to the button list in the main page, which is in the app/page.jsx file.
+
+This app was made using Next.js
+
+To run it:
 
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to 'localhost:3000' and you will see the buttons you configured in the main 'app/page.jsx' file.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You need to rename 'website_groups_example.json' file to 'website_groups.json', so the buttons can work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can add or remove urls from each group.
 
-## Learn More
+Also, you can add or remove groups, but remember to edit the main 'app/page.jsx' to reflect your changes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+PLEASE NOTE that every time you start the app and click any button, your browser will only open the first link in that group list and then block all the remaining urls. This happens because your browser blocks pop-ups. 
+To achieve the app functionality, you have to allow pop-ups for localhost:3000!
