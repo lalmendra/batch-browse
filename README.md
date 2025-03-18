@@ -8,7 +8,7 @@ Then, when the user needs to access all websites from a group, instead of typing
 
 The websites are stored in the 'data/website_groups.json' file, where each key is a website group, and the value associated to that key is an array containing the websites you want to open.
 
-After adding or removing groups, you need to make changes to the button list in the main page, which is in the app/page.jsx file.
+After adding or removing groups, you need to make changes to the button list in the main page, which is in the 'app/page.jsx' file.
 
 This app was made using Next.js
 
